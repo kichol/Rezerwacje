@@ -1,0 +1,18 @@
+﻿@model WebApplication4.Models.Reservation
+<div class="panel-heading">
+    Utwórz rezerwację
+</div>
+<div class="panel-body">
+    @using (Html.BeginForm( "Add", "Home"))
+    {
+        <div class="form-group">
+            <label>Nazwisko klienta</label>
+            @Html.TextBoxFor(m => m.ClientName, new { @class = "form-control" })
+        </div>
+        <div class="form-group">
+            <label>Lokalizacja</label>
+            @Html.TextBoxFor(m=>m.Location,new { @class="form-control"})
+        </div>
+        <button type="submit" class="btn btn-primary">Zapisz</button>
+    }
+</div>

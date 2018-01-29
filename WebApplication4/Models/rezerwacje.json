@@ -1,0 +1,17 @@
+﻿[
+  {
+    "ReservationId": "1",
+    "ClientName": "Kowalski",
+    "Location": "II piętro sala Prague"
+  },
+  {
+    "ReservationId": "2",
+    "ClientName": "Szeregowy",
+    "Location": "III piętro sala Paris"
+  },
+  {
+    "ReservationId": "3",
+    "ClientName": "Rico",
+    "Location": "I piętro sala Berlin"
+  }
+]
